@@ -40,12 +40,12 @@ Each result image below shows, from left to right:
 
 | Sample Results    |
 | ----------------- |
-| ![](result_1.jpg) |
-| ![](result_2.jpg) |
-| ![](result_3.jpg) |
-| ![](result_4.jpg) |
-| ![](result_5.jpg) |
-| ![](result_6.jpg) |
+| ![](Result_1.jpg) |
+| ![](Result_2.jpg) |
+| ![](Result_3.jpg) |
+| ![](Result_4.jpg) |
+| ![](Result_5.jpg) |
+| ![](Result_6.jpg) |
 
 ---
 
