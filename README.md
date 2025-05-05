@@ -35,9 +35,17 @@ This project proposes a novel **Transformer-based Super-Resolution (SR)** model 
 
 ## 📸 Sample Outputs
 
-| Low-Res Input                 | Super-Resolved Output         |
-| ----------------------------- | ----------------------------- |
-| ![LR](samples/lr_example.jpg) | ![SR](samples/sr_example.jpg) |
+Each result image below shows, from left to right:
+**Low-Res Input → Super-Resolved Output → Ground Truth → Transformer Attention Heatmap**
+
+| Sample Results    |
+| ----------------- |
+| ![](result_1.jpg) |
+| ![](result_2.jpg) |
+| ![](result_3.jpg) |
+| ![](result_4.jpg) |
+| ![](result_5.jpg) |
+| ![](result_6.jpg) |
 
 ---
 
