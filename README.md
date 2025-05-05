@@ -25,11 +25,20 @@ This project proposes a novel **Transformer-based Super-Resolution (SR)** model 
 
 ---
 
-## 🧪 Applications
+## 🧠 Model Architecture
 
-- 🌆 Urban Planning
-- 🌍 Land Use Monitoring
-- 🌿 Environmental Analysis
+The model consists of:
+
+- **Transformer Blocks** for capturing long-range spatial dependencies across modalities
+- **Residual CNN Blocks** for texture recovery
+- **Attention Fusion** to integrate RGB, QB, and TIR
+- **Discriminator** for GAN training using a CNN classifier
+
+Training involves:
+
+- **Content Loss (L1)** + **Adversarial Loss**
+- **PSNR/SSIM** used for evaluation
+- **Mixed Precision Training** via PyTorch AMP
 
 ---
 
@@ -38,22 +47,32 @@ This project proposes a novel **Transformer-based Super-Resolution (SR)** model 
 Each result image below shows, from left to right:
 **Low-Res Input → Super-Resolved Output → Ground Truth → Transformer Attention Heatmap**
 
-| Sample Results    |
-| ----------------- |
-| ![](Result_1.jpg) |
-| ![](Result_2.jpg) |
-| ![](Result_3.jpg) |
-| ![](Result_4.jpg) |
-| ![](Result_5.jpg) |
-| ![](Result_6.jpg) |
+| Sample Results            |
+| ------------------------- |
+| ![](results/Result_1.jpg) |
+| ![](results/Result_2.jpg) |
+| ![](results/Result_3.jpg) |
+| ![](results/Result_4.jpg) |
+| ![](results/Result_5.jpg) |
+| ![](results/Result_6.jpg) |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- `PyTorch`, `OpenCV`, `Matplotlib`
-- Transformer encoders + convolutional residual blocks
-- GAN loss + content loss
+- Python, PyTorch
+- OpenCV, Matplotlib
+- `torchmetrics`, `skimage.metrics`, `einops`
+- Mixed Precision Training (AMP)
+
+---
+
+## 🧪 Applications
+
+- 🌆 Urban Planning
+- 🌍 Land Use Monitoring
+- 🌿 Environmental Analysis
+- 🛰️ Disaster Response
 
 ---
 
