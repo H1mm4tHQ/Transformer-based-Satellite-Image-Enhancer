@@ -57,6 +57,16 @@ Each result image below shows, from left to right:
 
 ---
 
+## 📚 Reference
+
+This work was presented at:
+
+**Applied Intelligence, Second International Conference (ICAI 2024)**  
+📍 Zhengzhou, China — 🗓️ November 22–25, 2024  
+📝 Proceedings, **Part II**, pp. **61–72**
+
+---
+
 ## 📜 License
 
 This repository is part of an academic submission. Please contact us for reuse or extension.
