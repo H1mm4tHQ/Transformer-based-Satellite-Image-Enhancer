@@ -57,13 +57,6 @@ Each result image below shows, from left to right:
 
 ---
 
-## 🤝 Contributions
-
-- `Himmat (H1mm4tHQ)`: Transformer integration, training pipeline, report
-- `Anoop`: Data preprocessing, GAN design, evaluation
-
----
-
 ## 📜 License
 
 This repository is part of an academic submission. Please contact us for reuse or extension.
